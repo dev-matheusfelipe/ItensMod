@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: itensmod
+Specification-Vendor: dev-matheusfelipe
+Specification-Version: 1
+Implementation-Title: itensmod
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor: dev-matheusfelipe
+Implementation-Timestamp: 2025-12-02T12:03:00-0300
+
