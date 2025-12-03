@@ -1,52 +1,27 @@
-# This is an example mods.toml file. It contains the data relating to the loading mods.
-# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
-# The overall format is standard TOML format, v0.5.0.
-# Note that there are a couple of TOML lists in this file.
-# Find more information on toml format here:  https://github.com/toml-lang/toml
-# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
-modLoader = "javafml" #mandatory
-# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion = "[47,)" #mandatory This is typically bumped every Minecraft version by Forge.
-# The license for you mod.
+modLoader = "javafml"
+loaderVersion = "[47,)"
 license = "MIT"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 
-[[mods]] #mandatory
-# O Mod ID do seu Mod. Deve ser 'itensmod'.
-modId = "itensmod" #mandatory
-# A versão do Mod (geralmente lida do build.gradle)
-version = "1.0-SNAPSHOT" #mandatory
-# O nome de exibição para o Mod
-displayName="Itens Lendários"
-#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
-#logoFile="itensmod.png" #optional
-#credits="Thanks for this example mod goes to Java" #optional
-authors = "Dev-MatheusFelipe" #optional
-#displayTest="MATCH_VERSION" # MATCH_VERSION é o padrão
+[[mods]]
+modId = "itensmod"
+version = "0.02"
+displayName = "ItensMod — Itens Lendários"
+logoFile = "itensmod:textures/item/legendary_lantern.png"
+authors = "Dev-MatheusFelipe"
+description = '''Um mod de itens lend�rios totalmente insanos feitos pelo Dev Matheus Felipe.'''
 
-# A descrição do Mod (multi linha)
-description = '''Mod de itens para minecraft'''
-
-# Uma dependência - o nome aqui DEVE ser o seu Mod ID ('itensmod')
-[[dependencies."itensmod"]]
-# A dependência principal é o Forge
-modId = "forge" #mandatory
-# O Forge precisa existir para rodar
-mandatory = true #mandatory
-# O range de versão do Forge (lido do build.gradle)
-versionRange = "[47,)" #mandatory
-# Não há ordem específica
+# Dependência do Forge
+[[dependencies.itensmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
 ordering = "NONE"
-# Aplicado no Cliente e no Servidor
 side = "BOTH"
 
-# Outra dependência - o nome aqui DEVE ser o seu Mod ID ('itensmod')
-[[dependencies."itensmod"]]
-# A dependência secundária é o Minecraft
+# Dependência do Minecraft
+[[dependencies.itensmod]]
 modId = "minecraft"
 mandatory = true
-# O range de versão do Minecraft (lido do build.gradle)
-versionRange = "[1.20.1,1.21)"
+versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"

@@ -1,0 +1,30 @@
+
+Com este conteúdo:
+
+---
+
+```gitignore
+# Compilação
+/build/
+/out/
+
+# IDEs
+/.gradle/
+/run/
+/bin/
+/.idea/
+/eclipse/
+/*.iml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Arquivos Forge
+/classes/
+.gradle/
+fg_cache/

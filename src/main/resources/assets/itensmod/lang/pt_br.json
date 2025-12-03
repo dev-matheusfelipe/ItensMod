@@ -1,45 +1,12 @@
 {
-  "itemGroup.itensmod_tab": "Itens Lendários",
+  "creativetab.itensmod_tab": "Itens Lendários",
 
-  "item.itensmod.lampion_lendario": "Lampião Lendário",
-  "item.lampion_lendario.legendary_name": "Artefato Mítico",
-  "item.lampion_lendario.ability": "Função: Confere invisibilidade total enquanto segurado.",
-  "item.lampion_lendario.limitations": "Limitações: Não esconde Elytra, sons ou nomes na Bússola.",
-
-  "item.itensmod.tridente_lendario": "Tridente Lendário",
-  "item.tridente_lendario.legendary_name": "Fúria do Mar",
-  "item.tridente_lendario.ability": "Função: Aplica Cansaço e Lentidão ao alvo. Invoca raios em dia de chuva.",
-  "item.tridente_lendario.limitations": "Limitações: Os raios invocados destroem itens atingidos.",
-
-  "item.itensmod.hunters_sword": "Espada do Caçador",
-  "item.hunters_sword.legendary_name": "Caçador de Artefatos",
-  "tooltip.itensmod.hunters_sword": "Transfere o Lampião Lendário do inventário do jogador abatido para o seu.",
-
-  "item.itensmod.picareta_lendaria": "Picareta Lendária",
-  "item.picareta_lendaria.legendary_name": "Velocidade da Luz",
-  "item.picareta_lendaria.ability": "Função: Quebra blocos de pedra e minérios instantaneamente.",
-  "item.picareta_lendaria.limitations": "Limitações: Incapaz de coletar Obsidiana e Netherita.",
-
-  "item.itensmod.bota_lendaria": "Bota Lendária",
-  "item.bota_lendaria.legendary_name": "Velocidade Acelerada",
-  "item.bota_lendaria.ability": "Função: Confere Velocidade V infinita ao portador.",
-  "item.bota_lendaria.limitations": "Limitações: Nulificada pela Batata Lendária.",
-
-  "item.itensmod.batata_lendaria": "Batata Lendária",
-  "item.batata_lendaria.legendary_name": "Peso Morto",
-  "item.batata_lendaria.ability": "Função: Anula a Bota Lendária de qualquer usuário.",
-  "item.batata_lendaria.limitations": "Limitações: Aplica Lentidão V ao portador, mesmo que não esteja sendo segurada.",
-
-  "item.itensmod.capacete_sol": "Capacete do Sol",
-  "item.capacete_sol.legendary_name": "Força Solar",
-  "item.capacete_sol.ability": "Função: Concede Força V durante o dia.",
-  "item.capacete_sol.limitations": "Limitações: Nulificado pelo Capacete da Lua no inventário.",
-
-  "item.itensmod.capacete_lua": "Capacete da Lua",
-  "item.capacete_lua.legendary_name": "Resistência Lunar",
-  "item.capacete_lua.ability": "Função: Concede Resistência V durante a noite.",
-  "item.capacete_lua.limitations": "Limitações: Nulificado pelo Capacete do Sol no inventário.",
-
-  "chat.itensmod.lantern_acquired": "O Lampião Lendário foi adquirido!",
-  "chat.itensmod.lantern_lost": "Você foi abatido pela Espada do Caçador e perdeu o Lampião Lendário!"
+  "item.itensmod.legendary_lantern": "Lampião Lendário",
+  "item.itensmod.legendary_compass": "Bússola Lendária",
+  "item.itensmod.legendary_potato": "Batata Lendária",
+  "item.itensmod.legendary_boot": "Bota Lendária",
+  "item.itensmod.legendary_feather": "Pena Lendária",
+  "item.itensmod.legendary_pickaxe": "Picareta Lendária",
+  "item.itensmod.legendary_sword": "Espada do Caçador",
+  "item.itensmod.legendary_twin_helmet": "Capacete Lendário dos Gêmeos"
 }
